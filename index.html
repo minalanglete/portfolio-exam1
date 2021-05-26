@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miss Fitness - Home page</title>
+    <meta
+      name="description"
+      content="Blogsite writen by miss fitness - Marbella. 
+      it's about exercise and a healthy diet"
+    />
+    <link rel="shortcut icon" href="img/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5d90823717.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <a href="index.html" class="nav"><h1>Miss Fitness</h1></a>
+        <a href="index.html" id="current" class="nav">Home</a>
+        <a href="posts.html" class="nav">Blog</a>
+        <a href="about.html" class="nav">About me</a>
+        <a href="contact.html" class="nav">Contact</a>
+      </nav>
+    </header>
+
+    <a href="index.html">
+      <img
+        src="img/header_logo.jpg"
+        alt="miss fitness headerimage, Marbella resting on a boxingbench"
+        class="headerimg"
+      />
+    </a>
+    <h2 class="slogan">Fitness for life</h2>
+    <h3>Latest posts</h3>
+
+    <main>
+      <div class="carrocontainer">
+        <div class="carro">
+          <div class="container">
+            <section class="carousel1"></section>
+            <section class="carousel2"></section>
+            <section class="carousel3"></section>
+            <section class="carousel4"></section>
+            <section class="carousel5"></section>
+          </div>
+          <div class="arrows">
+            <span class="arrow left"><i class="fas fa-chevron-left"></i></span>
+            <span class="arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="view">
+      <a href="posts.html" class="button">
+        <h4 class="button">
+          view all posts
+          <i class="fas fa-chevron-right" id="right"></i>
+        </h4>
+      </a>
+    </div>
+
+    <aside>
+      <hr />
+      <div class="crossfit">
+        <a href="https://miss-fitness.netlify.app/postspecificpage.html?id=349">
+          <img
+            src="img/Crossfitexercise.jpg"
+            alt="Marbella lifting heavy weights"
+            class="exerciseimg"
+          />
+        </a>
+        <div class="programtext">
+          <h3 class="programtitle">Crossfit exercise program</h3>
+          <p>
+            If you want to follow my latest crossfit program then you can get
+            the full program. You will need weights and miscellaneous equipment
+            for this program.
+          </p>
+          <a
+            href="https://miss-fitness.netlify.app/postspecificpage.html?id=349"
+          >
+            <p class="readmore">
+              Read More
+              <i class="fas fa-chevron-right"></i>
+            </p>
+          </a>
+        </div>
+      </div>
+      <hr />
+    </aside>
+
+    <footer>
+      <a href="https://www.instagram.com/">
+        <i class="fab fa-instagram fa-2x"></i>
+      </a>
+      <a href="https://www.facebook.com/">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="https://www.snapchat.com/l/en-gb/">
+        <i class="fab fa-snapchat-ghost fa-2x"></i>
+      </a>
+      <a href="https://www.youtube.com/">
+        <i class="fab fa-youtube-square fa-2x"></i>
+      </a>
+      <p>Copyrights © 2021 Miss Fitness - Made by Mina Langlete</p>
+    </footer>
+
+    <script src="js/carousel.js"></script>
+    <script src="js/movecarousel.js"></script>
+  </body>
+</html>
