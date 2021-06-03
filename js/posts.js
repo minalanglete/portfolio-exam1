@@ -58,3 +58,45 @@ morePosts.addEventListener("click", function () {
 });
 
 
+const showOutdoor = document.querySelector(".outdoor");
+const showGymtime = document.querySelector(".gymtime");
+const showCrossfit = document.querySelector(".crossfit");
+const showFitness = document.querySelector(".fitness");
+const showAll = document.querySelector(".allposts");
+
+showOutdoor.addEventListener("click", function () {
+  url = "https://exam1.minadesign.one/wp-json/wp/v2/posts?categories=21";
+
+  morePosts.style.display = "none";
+  getPosts();
+});
+
+
+showGymtime.addEventListener("click", function () {
+  url = "https://exam1.minadesign.one/wp-json/wp/v2/posts?categories=26";
+
+  morePosts.style.display = "none";
+  getPosts();
+});
+
+showCrossfit.addEventListener("click", function () {
+  url = "https://exam1.minadesign.one/wp-json/wp/v2/posts?categories=20";
+
+  morePosts.style.display = "none";
+  getPosts();
+});
+
+showFitness.addEventListener("click", function () {
+  url = "https://exam1.minadesign.one/wp-json/wp/v2/posts?categories=23";
+
+  morePosts.style.display = "none";
+  getPosts();
+});
+
+showAll.addEventListener("click", function () {
+  pageCount++;
+  url = "https://exam1.minadesign.one/wp-json/wp/v2/posts?per_page=14";
+
+  morePosts.style.display = "none";
+  getPosts();
+});

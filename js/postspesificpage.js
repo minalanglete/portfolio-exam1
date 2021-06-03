@@ -23,6 +23,8 @@ async function getPost() {
 
     const product = results;
 
+    resultsContainer.innerHTML = "";
+
     const viewImg = document.querySelector(".modal");
     const view = document.querySelector(".resultspost");
 
