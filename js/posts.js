@@ -32,7 +32,7 @@ async function getPosts() {
 
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
-        resultsContainer.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h1>${posts[i].title.rendered}</h1> 
                                         <div class="date">Date: ${formatDate}</div>
                                         <div class="post">${posts[i].content.rendered}</div>
                                         

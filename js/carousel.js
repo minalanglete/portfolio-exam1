@@ -33,7 +33,7 @@ async function getPosts() {
 
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
-        resultsContainer1.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer1.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h5>${posts[i].title.rendered}</h5> 
                                         
                                         <div class="post">${posts[i].content.rendered}</div>
                                         <div class="date">Date: ${formatDate} - Marbella</div>
@@ -49,7 +49,7 @@ async function getPosts() {
 
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
-        resultsContainer2.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer2.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h5>${posts[i].title.rendered}</h5> 
                                         
                                         <div class="post">${posts[i].content.rendered}</div>
                                         <div class="date">Date: ${formatDate} - Marbella</div>
@@ -68,7 +68,7 @@ async function getPosts() {
 
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
-        resultsContainer3.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer3.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h5>${posts[i].title.rendered}</h5> 
                                         
                                         <div class="post">${posts[i].content.rendered}</div>
                                         <div class="date">Date: ${formatDate} - Marbella</div>
@@ -86,7 +86,7 @@ async function getPosts() {
 
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
-        resultsContainer4.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer4.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h5>${posts[i].title.rendered}</h5> 
                                         
                                         <div class="post">${posts[i].content.rendered}</div>
                                         <div class="date">Date: ${formatDate} - Marbella</div>
@@ -105,7 +105,7 @@ async function getPosts() {
         const formatDate  = new Date(posts[i].date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
 
-        resultsContainer5.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h3>${posts[i].title.rendered}</h3> 
+        resultsContainer5.innerHTML += `<a href="postspecificpage.html?id=${posts[i].id}" class="results"><h5>${posts[i].title.rendered}</h5> 
                                         
                                         <div class="post">${posts[i].content.rendered}</div>
                                         <div class="date">Date: ${formatDate} - Marbella</div>

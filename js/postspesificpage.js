@@ -11,6 +11,8 @@ const url = "https://exam1.minadesign.one/wp-json/wp/v2/posts/" +id;
 
 
 const resultsContainer = document.querySelector(".resultspost");
+const titleSite = document.querySelector(".title");
+
 
 
 async function getPost() {
@@ -24,9 +26,13 @@ async function getPost() {
     const product = results;
 
     resultsContainer.innerHTML = "";
+    titleSite.innerHTML = `${product.title.rendered}`;
 
     const viewImg = document.querySelector(".modal");
     const view = document.querySelector(".resultspost");
+    const modalImg= document.querySelector("figure");
+
+    
 
     viewImg.style.display = "none";    
 
@@ -34,7 +40,7 @@ async function getPost() {
     const formatDate  = new Date(product.date).toLocaleString("en-GB", {day: "numeric",  month: "numeric", year: "numeric",});
 
         resultsContainer.innerHTML += `<div class="resultspost">
-                                        <h3>${product.title.rendered}</h3> 
+                                        <h1>${product.title.rendered}</h1> 
                                         <div class="date">Date: ${formatDate}</div>
                                         <div class="post">${product.content.rendered}</div>
                                         

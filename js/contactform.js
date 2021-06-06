@@ -61,5 +61,5 @@ submitButton.addEventListener("click", function () {
         (message.value.trim().length > 25)
     )    
         messageSuccess.style.display = "block";
-        messageSuccess.innerHTML = `<h3 class="buttonsuccess">I have recived your message, you should get an answer as soon as possible!</h3>`;
+        messageSuccess.innerHTML = `<h5 class="buttonsuccess">I have recived your message, you should get an answer as soon as possible!</h5>`;
 });

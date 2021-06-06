@@ -65,5 +65,5 @@ submitButton.addEventListener("click", function () {
         (message.value.trim().length > 25)
     )    
         messageSuccess.style.display = "block";
-        messageSuccess.innerHTML = `<h3 class="buttonsuccess">Your comment has been posted!</h3>`;
+        messageSuccess.innerHTML = `<h5 class="buttonsuccess">Your comment has been posted!</h5>`;
 });

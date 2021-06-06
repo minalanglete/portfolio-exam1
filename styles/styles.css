@@ -2,7 +2,7 @@ body {
   margin: auto;
   max-width: 100%;
 }
-h1,
+h3,
 h2 {
   font-family: "Anton", sans-serif, Impact, Haettenschweiler,
     "Arial Narrow Bold", sans-serif;
@@ -21,7 +21,8 @@ h2 {
 .slogan {
   background-color: black;
 }
-h3 {
+h1,
+h5 {
   font-family: "Roboto Slab", serif;
   font-size: 40px;
   font-weight: bold;
@@ -168,8 +169,10 @@ a:link .post,
 a:visited .post,
 a:link .date,
 a:visited .date,
-a:link h3,
-a:visited h3,
+a:link h1,
+a:visited h1,
+a:link h5,
+a:visited h5,
 a:link .readmore,
 a:visited .readmore {
   color: black;
@@ -186,7 +189,8 @@ a:visited .readmore {
 figure {
   margin: 0px;
 }
-.results h3 {
+.results h5,
+.results h1 {
   font-size: 30px;
   text-align: left;
 }
@@ -322,6 +326,7 @@ aside {
 .modal p {
   display: none;
 }
+
 .modal {
   position: fixed;
   z-index: 2;
@@ -354,7 +359,7 @@ aside {
   flex-wrap: wrap;
   flex: 1 300px;
 }
-.carousel h3 {
+.carousel h5 {
   font-size: 25px;
 }
 .carousel .date {
@@ -403,11 +408,11 @@ aside {
 .carousel5 p {
   display: none;
 }
-.carousel1 h3,
-.carousel2 h3,
-.carousel3 h3,
-.carousel4 h3,
-.carousel5 h3 {
+.carousel1 h5,
+.carousel2 h5,
+.carousel3 h5,
+.carousel4 h5,
+.carousel5 h5 {
   font-size: 17px;
 }
 .carousel1 .date,
@@ -433,7 +438,7 @@ aside {
 .carousel5 .date {
   padding-left: 55px;
 }
-.carousel5 h3 {
+.carousel5 h5 {
   padding-left: 55px;
 }
 .arrows .arrow {
@@ -709,7 +714,7 @@ aside {
   span i {
     font-size: 14px;
   }
-  h1 {
+  h3 {
     font-size: 30px;
   }
 }
